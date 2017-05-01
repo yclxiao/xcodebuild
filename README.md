@@ -21,7 +21,7 @@ _-DEVELOPMENT_TEAM  苹果开发者团队TEAMID_ <br>
 _-CODE_SIGN_IDENTITY  证书名字（一定要去钥匙串里复制粘贴正确的证书名）_<br>
 _-PROVISIONING_PROFILE_SPECIFIER  描述文件的名字_
 
-# 第二步：通过.xcarcjove生成.ipa
+# 第二步：通过.xcarchive生成.ipa
 `xcodebuild -exportArchive -archivePath <XXX.xcarchive所在路径> -exportPath <导出.ipa的路径>  -exportOptionsPlist <XXX.plist所在路径>`
 
 _-archivePath  导出的归档的文件路径_ <br>
