@@ -15,7 +15,7 @@ _-DEVELOPMENT_TEAM  苹果开发者团队TEAMID_
 
 _-project   指向xcode工程文件的路径_ <br>
 _-archivePath  导出的归档的文件路径（包含文件夹和文件名）_ <br>
-_-scheme  项目的scheme名字（xcode-product-scheme）_ <br>
+_-scheme  项目的scheme名字（xcode -> product -> scheme）_ <br>
 _-configuration  通常设置Debug或者Release_ <br>
 _-DEVELOPMENT_TEAM  苹果开发者团队TEAMID(在苹果开发者网站上查看teamid)_ <br>
 _-CODE_SIGN_IDENTITY  证书名字（一定要去钥匙串里复制粘贴正确的证书名，注意包含前缀如iPhone Distribution: ,iPhone Developer:，全名如：iPhone Distribution: Jiangsu Qianmi Network Technology Co., Ltd.）_<br>
