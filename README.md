@@ -68,7 +68,7 @@ xcodebuild -exportArchive -archivePath /Users/yclxiao/Project/elifehome/ios/elif
 
 export.plist的内容如下：
 
-<?xml version="1.0" encoding="UTF-8"?>
+`<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
@@ -81,5 +81,5 @@ export.plist的内容如下：
   <key>uploadSymbols</key>
   <false/>
 </dict>
-</plist>
+</plist>`
 
