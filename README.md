@@ -65,3 +65,21 @@ xcodebuild -project /Users/yclxiao/Project/elifehome/ios/elifehome.xcodeproj -ar
 
 xcodebuild -exportArchive -archivePath /Users/yclxiao/Project/elifehome/ios/elifehome.xcarchive -exportPath /Users/yclxiao/Project/elifehome/ios/elifehome.ipa -exportOptionsPlist /Users/yclxiao/Project/elifehome/ios/export.plist
 
+
+export.plist的内容如下：
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>teamID</key>
+  <string>XXXXXXX</string>
+  <key>method</key>
+  <string>enterprise</string>
+  <key>compileBitcode</key>
+  <false/>
+  <key>uploadSymbols</key>
+  <false/>
+</dict>
+</plist>
+
