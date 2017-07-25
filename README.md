@@ -57,7 +57,7 @@ _-exportOptionsPlist  plist文件所在的位置（不是info.plist，这是xcod
 
 生成归档文件  xxx.xcarchive
 
-xcodebuild -project /Users/yclxiao/Project/elifehome/ios/elifehome.xcodeproj -archivePath /Users/yclxiao/Project/elifehome/ios/elifehome.xcarchive -scheme elifehome -configuration Release -sdk iphoneos archive DEVELOPMENT_TEAM="SFSFH6NHYB" CODE_SIGN_IDENTITY="iPhone Distribution: Jiangsu Qianmi Network Technology Co., Ltd." PROVISIONING_PROFILE_SPECIFIER=“ehome"
+xcodebuild -project /Users/yclxiao/Project/elifehome/ios/elifehome.xcodeproj -archivePath /Users/yclxiao/Project/elifehome/ios/elifehome.xcarchive -scheme elifehome -configuration Release -sdk iphoneos archive DEVELOPMENT_TEAM="SFSFH6NHYB" CODE_SIGN_IDENTITY="iPhone Distribution: Jiangsu Qianmi Network Technology Co., Ltd." PROVISIONING_PROFILE_SPECIFIER="ehome"
 
 
 
