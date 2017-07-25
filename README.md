@@ -51,3 +51,12 @@ _-exportOptionsPlist  plist文件所在的位置（不是info.plist，这是xcod
 `</plist>` 
 <br><br>
 [参考文章看这里](http://123.57.28.121/index.php/2016/10/28/code-sign-in-xcode8/)
+
+
+#####examble########
+生成归档文件  xxx.xcarchive
+xcodebuild -project /Users/yclxiao/Project/elifehome/ios/elifehome.xcodeproj -archivePath /Users/yclxiao/Project/elifehome/ios/elifehome.xcarchive -scheme elifehome -configuration Release -sdk iphoneos archive DEVELOPMENT_TEAM="SFSFH6NHYB" CODE_SIGN_IDENTITY="iPhone Distribution: Jiangsu Qianmi Network Technology Co., Ltd." PROVISIONING_PROFILE_SPECIFIER=“ehome"
+
+生成ipa文件   xxx.ipa
+xcodebuild -exportArchive -archivePath /Users/yclxiao/Project/elifehome/ios/elifehome.xcarchive -exportPath /Users/yclxiao/Project/elifehome/ios/elifehome.ipa -exportOptionsPlist /Users/yclxiao/Project/elifehome/ios/export.plist
+
